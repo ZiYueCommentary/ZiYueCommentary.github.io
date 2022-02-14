@@ -1,4 +1,3 @@
-@import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 /*
 	模板来自HTML5 UP
@@ -10,6 +9,7 @@
   缓慢进行中slowly 该计划正在进行中，但效率十分低下甚至无限趋近于零
   等待开启waiting 该计划已规划完毕，正在等待更优先的计划完工
   规划中planning 该计划正在规划中
+  已暂停paused 该计划已开工，但由于某些原因暂时停止工作
   已取消cancelled 该计划因某些原因取消
 */
 html, body, div, span, applet, object,
@@ -159,7 +159,7 @@ table.planning span{
   text-align: center;
 }
 
-table.cancelled{
+table.paused{
   display: inline;
   border: 1px solid #7f8c8d;
   border-radius: 2px;
@@ -168,9 +168,30 @@ table.cancelled{
   box-shadow: 0 0 0 4px #7f8c8d;
   width: 7%;
 }
-table.cancelled td{
+table.paused td{
   background-color: #7f8c8d;
   border: 1px solid #7f8c8d;
+}
+table.paused span{
+  display:block;
+  color: white;
+  height: 15%;
+  line-height: 15%;
+  text-align: center;
+}
+
+table.cancelled{
+  display: inline;
+  border: 1px solid #2f3542;
+  border-radius: 2px;
+  border-collapse: collapse;
+  border-style:hidden;  
+  box-shadow: 0 0 0 4px #2f3542;
+  width: 7%;
+}
+table.cancelled td{
+  background-color: #2f3542;
+  border: 1px solid #2f3542;
 }
 table.cancelled span{
   display:block;
@@ -2458,3 +2479,28 @@ li.icon{
   position: absolute;
   bottom: 0
   }
+
+div.trendList{
+  text-align: middle;
+}
+div.trendList img{
+  width: 50%;
+  vertical-align: middle;
+}
+div.trendList span{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+div.member{
+  text-align: middle;
+}
+div.member img{
+  width: 15%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+div.member span{
+  display:inline-block;
+  vertical-align:middle;
+}
