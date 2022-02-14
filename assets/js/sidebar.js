@@ -61,7 +61,7 @@ document.writeln("											<p>收容失效汉化版 预发布测试更新<br>2
 document.writeln("										</article>");
 document.writeln("									</div>");
 document.writeln("									<ul class=\'actions\'>");
-document.writeln("										<li><a href=\'#\' class=\'button\'>更多</a></li>");
+document.writeln("										<li><a href=\'动态列表.html\' class=\'button\'>更多</a></li>");
 document.writeln("									</ul>");
 document.writeln("								</section>");
 document.writeln("");
