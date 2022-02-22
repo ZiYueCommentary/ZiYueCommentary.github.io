@@ -11,6 +11,7 @@ url[8] = "你知道吗.html";
 url[9] = "动态-中贴第二版.html";
 url[10] = "存档列表.html";
 url[11] = "汉化组成员.html";
+url[12] = "维基SCP换血计划.html";
 
 i = Math.random() * url.length;
 i = Math.floor(i);
