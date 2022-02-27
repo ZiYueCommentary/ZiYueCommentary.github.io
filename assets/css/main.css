@@ -2504,3 +2504,14 @@ div.member span{
   display:inline-block;
   vertical-align:middle;
 }
+
+div.center{
+  text-align: middle;
+}
+div.center img{
+  vertical-align: middle;
+}
+div.center span{
+  display:inline-block;
+  vertical-align:middle;
+}
