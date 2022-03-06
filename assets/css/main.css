@@ -201,6 +201,7 @@ table.cancelled span{
   text-align: center;
 }
 
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
@@ -1391,7 +1392,7 @@ input[type="radio"] + label:before {
   .icon.solid:before {
     font-weight: 900; }
   .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands'; }
+    font-family: 'IconFont'; }
 
 /* Image */
 .image {
