@@ -12,6 +12,32 @@
   已暂停paused 该计划已开工，但由于某些原因暂时停止工作
   已取消cancelled 该计划因某些原因取消
 */
+
+@font-face {
+	font-family: Containment Breach;
+	src: url(../webfonts/收容失效Regular.ttf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Containment Breach;
+	src: url(../webfonts/收容失效Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 普惠体Mid;
+	src: url(../webfonts/普惠体Mid.otf);
+  font-weight: bold;
+}
+
+@font-face {
+	font-family: 普惠体Bold;
+	src: url(../webfonts/普惠体Bold.otf);
+  font-weight: bold;
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -314,8 +340,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
-  font-family: "阿里巴巴普惠体";
-  src: url(../webfonts/PuHuiTiMid.ttf);
+  font-family: 普惠体Bold;
   font-weight: normal;
   line-height: 1.5;
   margin: 0 0 1em 0; }
@@ -1173,8 +1198,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  font-family: "阿里巴巴普惠体";
-  src: url(../webfonts/PuHuiTiMid.ttf);
+  font-family: 普惠体Mid;
   font-size: 100%;
   font-weight: normal;
   letter-spacing: 0.075em;
@@ -1684,7 +1708,6 @@ button,
   cursor: pointer;
   display: inline-block;
   font-family: "收容失效", serif;
-  src: url(../webfonts/Containment\ Breach.ttf);
   font-size: 90%;
   font-weight: bold;
   height: 3.5em;
@@ -2384,8 +2407,7 @@ button,
   -ms-user-select: none;
   user-select: none;
   color: #3d4449;
-  font-family: "收容失效", bold;
-  src: url(../webfonts/Containment\ Breach.ttf);
+  font-family: Containment Breach;
   font-weight: bold;
   letter-spacing: 0.075em;
   list-style: none;
