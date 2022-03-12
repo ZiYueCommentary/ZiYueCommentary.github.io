@@ -37,6 +37,11 @@
   font-weight: bold;
 }
 
+@font-face {
+	font-family: Icon;
+	src: url(../webfonts/IconFont.ttf);
+  font-weight: normal;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2537,4 +2542,13 @@ div.center img{
 div.center span{
   display:inline-block;
   vertical-align:middle;
+}
+
+.icon::before{
+  font-family: Icon;
+  color: #f56a6a;
+}
+
+.icon.baidu::before{
+  list-style-type: 'C';
 }
