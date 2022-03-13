@@ -15,31 +15,31 @@
 
 @font-face {
 	font-family: Containment Breach;
-	src: url(../webfonts/收容失效Regular.ttf);
+	src: url(../webfonts/收容失效Regular.woff2);
 	font-weight: normal;
 }
 
 @font-face {
 	font-family: Containment Breach;
-	src: url(../webfonts/收容失效Bold.ttf);
+	src: url(../webfonts/收容失效Bold.woff2);
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: 普惠体Mid;
-	src: url(../webfonts/普惠体Mid.otf);
+	src: url(../webfonts/普惠体Mid.woff2);
   font-weight: bold;
 }
 
 @font-face {
 	font-family: 普惠体Bold;
-	src: url(../webfonts/普惠体Bold.otf);
+	src: url(../webfonts/普惠体Bold.woff2);
   font-weight: bold;
 }
 
 @font-face {
 	font-family: Icon;
-	src: url(../webfonts/IconFont.ttf);
+	src: url(../webfonts/IconFont.woff2);
   font-weight: normal;
 }
 
