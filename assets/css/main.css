@@ -2544,15 +2544,6 @@ div.center span{
   vertical-align:middle;
 }
 
-.icon::before{
-  font-family: Icon;
-  color: #f56a6a;
-}
-
-.icon.baidu::before{
-  list-style-type: 'C';
-}
-
 div.author{
   text-align: middle;
   font-size: 80%;
