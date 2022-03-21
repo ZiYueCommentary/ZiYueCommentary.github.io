@@ -2512,7 +2512,7 @@ div.trendList{
   text-align: middle;
 }
 div.trendList img{
-  width: 50%;
+  width: 600px;
   vertical-align: middle;
 }
 div.trendList span{
@@ -2524,7 +2524,7 @@ div.member{
   text-align: middle;
 }
 div.member img{
-  width: 15%;
+  width: 150px;
   border-radius: 50%;
   vertical-align: middle;
 }
