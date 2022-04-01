@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -7,73 +6,51 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
->>>>>>> 8d8f2c4 (2022/3/12)
 
 <url>
   <loc>https://ziyuesinicization.site/</loc>
-  <lastmod>2022-03-10T14:54:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/index.html</loc>
-  <lastmod>2022-03-10T14:54:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/%E6%94%B6%E5%AE%B9%E5%A4%B1%E6%95%88%E6%B1%89%E5%8C%96%E8%AE%A1%E5%88%92.html</loc>
-  <lastmod>2022-03-10T14:54:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/%E9%87%8D%E5%88%B6%E7%89%88%E4%B8%AD%E6%96%87%E4%BC%98%E5%8C%96.html</loc>
-  <lastmod>2022-03-10T14:54:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/%E7%BB%88%E6%9E%81%E7%89%88%E6%B1%89%E5%8C%96%E8%AE%A1%E5%88%92.html</loc>
-  <lastmod>2022-03-10T14:54:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/%E6%94%B6%E5%AE%B9%E5%A4%B1%E6%95%88%E4%B8%AD%E6%96%87%E7%BB%B4%E5%9F%BA.html</loc>
-  <lastmod>2022-03-10T14:54:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/%E7%BB%B4%E5%9F%BASCP%E6%8D%A2%E8%A1%80%E8%AE%A1%E5%88%92.html</loc>
-  <lastmod>2022-03-10T14:54:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/%E4%B8%AD%E6%96%87%E8%B4%B4%E5%9B%BE%E6%A8%A1%E7%BB%84.html</loc>
-  <lastmod>2022-03-10T14:54:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E7%BB%84%E6%B1%89%E5%8C%96.html</loc>
-  <lastmod>2022-03-10T14:54:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ziyuesinicization.site/%E6%B1%89%E5%8C%96%E7%BB%84%E6%88%90%E5%91%98.html</loc>
-  <lastmod>2022-03-10T14:54:45+00:00</lastmod>
-  <priority>0.64</priority>
-<<<<<<< HEAD
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ziyuesinicization.site/九尾狐中文.html</loc>
+  <priority>0.80</priority>
 </url>
 
 
-=======
-</url>
-
-
->>>>>>> 8d8f2c4 (2022/3/12)
 </urlset>

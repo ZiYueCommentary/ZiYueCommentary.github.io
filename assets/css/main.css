@@ -2510,6 +2510,7 @@ li.icon{
 
 div.trendList{
   text-align: middle;
+  white-space:nowrap;
 }
 div.trendList img{
   width: 50%;
