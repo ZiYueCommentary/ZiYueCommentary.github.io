@@ -15,20 +15,8 @@
 
 @font-face {
 	font-family: Containment Breach;
-	src: url(../webfonts/收容失效Regular.woff2);
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: Containment Breach;
 	src: url(../webfonts/收容失效Bold.woff2);
 	font-weight: bold;
-}
-
-@font-face {
-	font-family: 普惠体Mid;
-	src: url(../webfonts/普惠体Mid.woff2);
-  font-weight: bold;
 }
 
 @font-face {
@@ -1203,7 +1191,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  font-family: 普惠体Mid;
+  font-family: 普惠体Bold;
   font-size: 100%;
   font-weight: normal;
   letter-spacing: 0.075em;
@@ -2300,7 +2288,7 @@ button,
   #header .logo {
     border-bottom: 0;
     color: inherit;
-    font-family: "Roboto Slab", serif;
+    font-family: Containment Breach, serif;
     font-size: 1.125em; }
   #header .icons {
     text-align: right; }
