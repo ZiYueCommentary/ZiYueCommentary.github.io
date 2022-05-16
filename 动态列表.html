@@ -27,6 +27,11 @@
 									</header>
 
 									<div class="trendList">
+										<a href="trends/二期汉化.html"><img class="image" src="images/收容失效汉化计划/二期汉化.jpg"></a>
+										<span><a href="trends/二期汉化.html"><h2>收容失效汉化计划 二期汉化发布</h2></a>2022年5月16日</span>
+									</div>
+									<br>
+									<div class="trendList">
 										<a href="trends/二期技术测试.html"><img class="image" src="images/收容失效汉化计划/二期技术测试.jpg"></a>
 										<span><a href="trends/二期技术测试.html"><h2>二期技术测试/中贴第四版发布</h2></a>2022年5月1日</span>
 									</div>
@@ -45,41 +50,36 @@
 										<a href="trends/一期测试.html"><img class="image" src="images/收容失效汉化计划/一期测试.jpg"></a>
 										<span><a href="trends/一期测试.html"><h2>收容失效汉化计划 一期测试更新</h2></a>2022年4月1日</span>
 									</div>
-									<br>
-									<div class="trendList">
-										<a href="trends/Discord群关闭.html"><img class="image" src="images/收容失效汉化计划/横幅.png"></a>
-										<span><a href="trends/Discord群关闭.html"><h2>SCP - 收容失效汉化交流 Discord群关闭</h2></a>2022年3月17日</span>
-									</div>
-									<br>
-									<div class="trendList">
-										<a href="trends/汉化阶段调整.html"><img class="image" src="images/收容失效汉化计划/横幅.png"></a>
-										<span><a href="trends/汉化阶段调整.html"><h2>SCP - 收容失效汉化计划 汉化阶段调整</h2></a>2022年3月13日</span>
-									</div>
-									<br>
-									<div class="trendList">
-										<a href="trends/中文网站.html"><img class="image" src="images/收容失效汉化计划/中文网站.png"></a>
-										<span><a href="trends/中文网站.html"><h2>SCP - 收容失效 中文网站搭建完毕</h2></a>2022年3月12日</span>
-									</div>
-									<br>
-									<div class="trendList">
-										<a href="trends/预发布测试.html"><img class="image" src="images/收容失效汉化计划/预发布测试.jpg"></a>
-										<span><a href="trends/预发布测试.html"><h2>收容失效汉化计划 预发布测试更新</h2></a>2022年2月1日</span>
-									</div>
-									<br>
-									<div class="trendList">
-										<a href="trends/中贴第二版.html"><img class="image" src="images/中文贴图模组/第二版.jpg"></a>
-										<span><a href="trends/中贴第二版.html"><h2>中文贴图模组 第二版更新</h2></a>2022年2月1日</span>
+									<br style="clear: both;"><br style="clear: both;"><br>
+									<span href="" class="button fit spoiler_links" id="tab">展开</span>
+									<br style="clear: both;"><br>
+									<div class="spoiler_body">
+										<div class="trendList">
+											<a href="trends/Discord群关闭.html"><img class="image" src="images/收容失效汉化计划/横幅.png"></a>
+											<span><a href="trends/Discord群关闭.html"><h2>SCP - 收容失效汉化交流 Discord群关闭</h2></a>2022年3月17日</span>
+										</div>
+										<br>
+										<div class="trendList">
+											<a href="trends/汉化阶段调整.html"><img class="image" src="images/收容失效汉化计划/横幅.png"></a>
+											<span><a href="trends/汉化阶段调整.html"><h2>SCP - 收容失效汉化计划 汉化阶段调整</h2></a>2022年3月13日</span>
+										</div>
+										<br>
+										<div class="trendList">
+											<a href="trends/中文网站.html"><img class="image" src="images/收容失效汉化计划/中文网站.png"></a>
+											<span><a href="trends/中文网站.html"><h2>SCP - 收容失效 中文网站搭建完毕</h2></a>2022年3月12日</span>
+										</div>
+										<br>
+										<div class="trendList">
+											<a href="trends/预发布测试.html"><img class="image" src="images/收容失效汉化计划/预发布测试.jpg"></a>
+											<span><a href="trends/预发布测试.html"><h2>收容失效汉化计划 预发布测试更新</h2></a>2022年2月1日</span>
+										</div>
+										<br>
+										<div class="trendList">
+											<a href="trends/中贴第二版.html"><img class="image" src="images/中文贴图模组/第二版.jpg"></a>
+											<span><a href="trends/中贴第二版.html"><h2>中文贴图模组 第二版更新</h2></a>2022年2月1日</span>
+										</div>
 									</div>
 								</section>
-
-							<!-- Footer -->
-								<footer id="footer" align="center">
-									<ul class="pagination">
-										<li><span class="button disabled">上一页</span></li>
-										<li><a href="" class="page active">1</a></li>
-										<li><a class="button disabled">下一页</a></li>
-									</ul>
-								</footer>
 						</div>
 					</div>
 
@@ -92,6 +92,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$('.spoiler_links').click(function(){
+						$(this).parent().children('div.spoiler_body').toggle('normal');
+						document.getElementById("tab").innerText = (document.getElementById("tab").innerText == "展开" ? "折叠" : "展开");
+						return false;
+					});
+				});
+			</script>
+			<style type="text/css">
+				.spoiler_body {display:none;}
+				.spoiler_links {cursor:pointer;}
+			</style>
 	</body>
 </html>
