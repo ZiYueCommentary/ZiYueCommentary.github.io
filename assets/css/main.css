@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 /*
 	模板来自HTML5 UP
 	
@@ -15,7 +14,7 @@
 
 @font-face {
 	font-family: Containment Breach;
-	src: url(../webfonts/收容失效Bold.woff2);
+	src: url(https://scpcbgame.cn/fonts/收容失效Bold.woff2);
 	font-weight: bold;
 }
 
@@ -23,12 +22,6 @@
 	font-family: 普惠体Bold;
 	src: url(../webfonts/普惠体Bold.woff2);
   font-weight: bold;
-}
-
-@font-face {
-	font-family: Icon;
-	src: url(../webfonts/IconFont.woff2);
-  font-weight: normal;
 }
 
 html, body, div, span, applet, object,
