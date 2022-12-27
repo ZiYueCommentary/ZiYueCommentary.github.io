@@ -12,6 +12,8 @@
   已取消cancelled 该计划因某些原因取消
 */
 
+@import url(fontawesome-all.min.css);
+
 @font-face {
 	font-family: Containment Breach;
 	src: url(https://scpcbgame.cn/fonts/收容失效Bold.woff2);
@@ -1393,7 +1395,7 @@ input[type="radio"] + label:before {
     text-rendering: auto;
     line-height: 1;
     text-transform: none !important;
-    font-family: 'Font Awesome 5 Free Soild';
+    font-family: 'Font Awesome 5 Free';
     font-weight: 400; }
   .icon > .label {
     display: none; }
@@ -1402,7 +1404,7 @@ input[type="radio"] + label:before {
   .icon.solid:before {
     font-weight: 900; }
   .icon.brands:before {
-    font-family: 'IconFont'; }
+    font-family: 'Font Awesome 5 Brands'; }
 
 /* Image */
 .image {
@@ -2180,16 +2182,16 @@ button,
       text-transform: none !important;
       font-family: 'Font Awesome 5 Free';
       font-weight: 900; }
-    #sidebar .toggle:before {
-      content: url(../../images/icons/list.svg);
-      font-weight: 100;
-      height: inherit;
-      left: 0;
-      line-height: inherit;
-      position: absolute;
-      text-indent: 0;
-      top: 0;
-      width: 80%; }
+      #sidebar .toggle:before {
+        content: '\f0c9';
+        font-size: 2rem;
+        height: inherit;
+        left: 0;
+        line-height: inherit;
+        position: absolute;
+        text-indent: 0;
+        top: 0;
+        width: inherit; }
   #sidebar.inactive {
     margin-left: -26em; }
   @media screen and (max-width: 1680px) {
