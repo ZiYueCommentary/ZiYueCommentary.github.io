@@ -61,9 +61,11 @@ document.writeln("                                      <li><a href='存档列�
 document.writeln("										<li>");
 document.writeln("											<span class='opener'>其他网站</span>");
 document.writeln("											<ul>");
-document.writeln("										        <li><a href='https://forum.ziyuesinicization.site/'>官方论坛</a></li>");
+document.writeln("										        <a href='https://forum.ziyuesinicization.site/'>官方论坛</a></li>");
 document.writeln("										        <li><a href='https://wiki.ziyuesinicization.site/'>官方维基</a></li>");
 document.writeln("										        <li><a href='https://blog.ziyuesinicization.site/'>博客中心</a></li>");
+document.writeln("										        <li><a href='https://gitbook.ziyuesinicization.site/'>子悦汉化组 GitBook</a></li>");
+document.writeln("										        <li><a href='https://weblate.ziyuesinicization.site/'>ZiYue Weblate</a></li>");
 document.writeln("											</ul>");
 document.writeln("										</li>");
 document.writeln("                                      <li><a href='你知道吗.html'>你知道吗</a></li>");
