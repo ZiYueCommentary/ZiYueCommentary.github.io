@@ -1391,6 +1391,11 @@ input[type="radio"] + label:before {
   padding-right: 0em;
 }
 
+.icon.pure::before {
+  color: #7f888f;
+  padding-right: 0.5em;
+}
+
 .icon {
   text-decoration: none;
   border-bottom: none;
@@ -2479,14 +2484,6 @@ button,
     margin-top: 0;
     padding-top: 0; }
 
-/* 新内容 */
-li.unFinish{
-  list-style-type: "□";
-}
-
-li.finish{
-  list-style-type: "☑";
-}
 
 li.icon{
   list-style: none;
