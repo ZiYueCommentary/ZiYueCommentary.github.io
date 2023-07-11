@@ -105,7 +105,7 @@ document.writeln("									<header class='major'>");
 document.writeln("										<h2>联系我们</h2>");
 document.writeln("									</header>");
 document.writeln("									<ul class='contact'>");
-document.writeln("										<li class='icon nopad solid fa-envelope'><a href='mailto:ziyuecommentary@gmail.com'>ziyuecommentary@gmail.com</a></li>");
+document.writeln("										<li class='icon nopad solid fa-envelope'><a href='mailto:contact@ziyuesinicization.site'>contact@ziyuesinicization.site</a></li>");
 document.writeln("										<li class='icon nopad brands fa-qq'><a href='https://jq.qq.com/?_wv=1027&k=OKHrRKoW' target='_blank'>1006841985</a></li>");
 document.writeln("										<li class='icon nopad solid fa-wrench'><a href='https://www.moddb.com/company/ziyue-sinicization-group' target='_blank'>ModDB主页</a></li>");
 document.writeln("									</ul>");
