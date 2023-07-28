@@ -113,7 +113,7 @@ document.writeln("								</section>");
 document.writeln("");
 document.writeln("							<!-- Footer -->");
 document.writeln("								<footer id='footer'>");
-document.writeln("									<p class='copyright'>&copy; 子悦汉化组，遵循<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.zh\" target=\"_blank\">CC BY-SA 3.0</a>协议。<br>网页设计来自<a href='https://html5up.net' target='_blank'>HTML5 UP</a>，托管于<a href='https://github.com/ZiYueCommentary/ZiYueCommentary.github.io' target='_blank'>Github Page</a>。</p>");
+document.writeln("									<p class='copyright'>&copy; 子悦汉化组，遵循<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.zh\" target=\"_blank\">CC BY-SA 3.0</a>协议。<br>网页设计来自<a href='https://html5up.net' target='_blank'>HTML5 UP</a>，托管于<a href='https://pages.cloudflare.com/' target='_blank'>Cloudflare Pages</a>。</p>");
 document.writeln("								</footer>");
 document.writeln("");
 document.writeln("						</div>");
