@@ -1453,6 +1453,9 @@ input[type="radio"] + label:before {
     width: 100%; }
     .image.main img {
       width: 100%; }
+video {
+  border-radius: 0.375em;
+  display: block; }
 
 a.image {
   overflow: hidden; }
