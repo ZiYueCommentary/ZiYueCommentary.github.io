@@ -16,13 +16,13 @@
 
 @font-face {
 	font-family: Containment Breach;
-	src: url(https://scpcbgame.cn/fonts/收容失效Bold.woff2);
+	src: url("../webfonts/Containment Breach Bold.woff2");
 	font-weight: bold;
 }
 
 @font-face {
 	font-family: 普惠体Bold;
-	src: url(../webfonts/普惠体Bold.woff2);
+	src: url("../webfonts/普惠体Bold.woff2");
   font-weight: bold;
 }
 
