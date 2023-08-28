@@ -123,7 +123,7 @@ const trends = [
 ]
 
 
-const url = ["index.html","scpcb-chinese.html","ctot.html","trends.html","scpunity-chinese-polish.html","scpcb-ue-chinese.html","scpcb-chinese-wiki.html","trivia.html","archives.html","members.html","scpcb-rewrite-wikipedia.html","videos/轻收容区教程.html","videos/SCP-066.html","videos/SL抵制外挂.html"]
+const url = ["index.html","scpcb-chinese.html","ctot.html","trends.html","scpunity-chinese-polish.html","scpcb-ue-chinese.html","scpcb-chinese-wiki.html","trivia.html","archives.html","members.html","scpcb-rewrite-wikipedia.html","videos/轻收容区教程.html","videos/SCP-006.html","videos/SL抵制外挂.html"]
 
 function getUrlParam(param) {
 	var url = window.location.search.substr(1);
