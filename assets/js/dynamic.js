@@ -121,8 +121,6 @@ const trends = [
         date:	"2022年2月1日"
     },
 ]
-
-
 const url = ["index.html","scpcb-chinese.html","ctot.html","trends.html","scpunity-chinese-polish.html","scpcb-ue-chinese.html","scpcb-chinese-wiki.html","trivia.html","archives.html","members.html","scpcb-rewrite-wikipedia.html","videos/轻收容区教程.html","videos/SCP-006.html","videos/SL抵制外挂.html"]
 
 function getUrlParam(param) {
@@ -149,7 +147,7 @@ function generateTrends(){
 			html += "<div class=\"trendList\">";
 			html += "<a href=\"" + trends[(page * 5) + i].link + "\"><img class=\"image\" src=\"" + trends[(page * 5) + i].poster + "\"><\/a>";
 			html += "<span><a href=\"" + trends[(page * 5) + i].link + "\"><h2>" + trends[(page * 5) + i].title + "<\/h2><\/a>" + trends[(page * 5) + i].date + "<\/span>";
-			html += "<\/div>";
+			html += "</div>";
 			html += "<br>";
 		}
 		html += "<ul class='pagination' align='center'>";
@@ -166,6 +164,7 @@ function generateTrends(){
 		} else {
 			html += "<li><a class='button' href='?page=" + (page + 2) + "'>下一页</span></li>";
 		}
+		html += "</ul>";
 		$("trends").replaceWith(html);
 	});
 }

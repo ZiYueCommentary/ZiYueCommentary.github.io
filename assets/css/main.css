@@ -326,6 +326,15 @@ p {
   font: normal;
 }
 
+ul p {
+  margin: 0 0 0.5em 0; 
+  padding-left: 0.5em;
+}
+
+ul ul {
+  margin: 0 0 0 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
   font-family: 普惠体Bold;
