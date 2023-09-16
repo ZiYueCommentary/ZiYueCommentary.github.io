@@ -178,6 +178,13 @@ function getLink(index) {
 
 function generateSidebar() {
 	document.write(
+		"<script async src='https://www.googletagmanager.com/gtag/js?id=G-J2WV3EXMX7'></script>" +
+		"<script>" +
+		  "window.dataLayer = window.dataLayer || [];" +
+		  "function gtag(){dataLayer.push(arguments);}" +
+		  "gtag('js', new Date());" +
+		  "gtag('config', 'G-J2WV3EXMX7');" +
+		"</script>" +
 		"<div id='sidebar'>" +
 			"<div class='inner'>" +
 				//"<section id='search' class='alt'>" +
@@ -215,10 +222,10 @@ function generateSidebar() {
 						function() {
 							var trend = "";
 							for(var i = 0; i < 3; i++) {
-								trend +=	"<article>" + 
-												"<a href=\"" + trends[i].link + "\" class='image'><img src=\"" + trends[i].poster + "\"></a>" + 
-												"<p>" + trends[i].title + "<br>" + trends[i].date + "</p>" +
-											"</article>";
+								trend += "<article>" + 
+										 	"<a href=\"" + trends[i].link + "\" class='image'><img src=\"" + trends[i].poster + "\"></a>" + 
+										 	"<p>" + trends[i].title + "<br>" + trends[i].date + "</p>" +
+										 "</article>";
 							}
 							return trend;
 						}() +
