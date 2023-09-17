@@ -44,6 +44,10 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
+.ASS-dialogue {
+  margin-top: 0.3em;
+}
+
 table.done{
   display: inline;
   border: 1px solid #2ecc71;
@@ -2516,13 +2520,13 @@ div.trendList{
   white-space:nowrap;
 }
 div.trendList img{
-  width: 40%;
+  width: 500px;
   vertical-align: middle;
-  padding-right: 5px;
 }
 div.trendList span{
   display:inline-block;
   vertical-align:middle;
+  margin-left: 10px;
 }
 
 div.member{
@@ -2532,6 +2536,7 @@ div.member img{
   width: 150px;
   border-radius: 50%;
   vertical-align: middle;
+  margin-right: 20px;
 }
 div.member span{
   display:inline-block;
@@ -2554,16 +2559,14 @@ div.author{
   font-size: 80%;
 }
 div.author img{
-  width: 5%;
+  width: 60px;
   border-radius: 50%;
-  margin-right: 5px;
-}
-div.author span{
-  display:inline-block;
-  line-height:1px;
-  vertical-align: middle;
+  margin-right: 10px;
 }
 div.author span p{
-  font-size: 130%;
-  line-height: 30%;
+  vertical-align: middle;
+  font-size: 1.4em;
+  line-height: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }

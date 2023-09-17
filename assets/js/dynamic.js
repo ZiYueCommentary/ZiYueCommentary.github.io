@@ -145,12 +145,12 @@ function generateTrends(){
 		for (var i = 0; i < 5; i++) {
 			if(((page * 5) + i) >= trends.length) break;
 			html += "<div class=\"trendList\">";
-			html += "<a href=\"" + trends[(page * 5) + i].link + "\"><img class=\"image\" src=\"" + trends[(page * 5) + i].poster + "\"><\/a>";
+			html += "<a href=\"" + trends[(page * 5) + i].link + "\"><img class='image' src=\"" + trends[(page * 5) + i].poster + "\"><\/a>";
 			html += "<span><a href=\"" + trends[(page * 5) + i].link + "\"><h2>" + trends[(page * 5) + i].title + "<\/h2><\/a>" + trends[(page * 5) + i].date + "<\/span>";
 			html += "</div>";
 			html += "<br>";
 		}
-		html += "<ul class='pagination' align='center'>";
+		html += "<br><ul class='pagination' align='center'>";
 		if (page == 0) {
 			html += "<li><span class='button disabled'>上一页</span></li>";
 		} else {
