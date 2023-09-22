@@ -5,10 +5,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Algolia Search
-      - uses: actions/checkout@v2
-      - uses: darrenjennings/algolia-docsearch-action@master
-        with:
-          algolia_application_id: 'U78G8QR4DU'
-          algolia_api_key: '6210ead870813aadae2d72f3681e8bb9'
-          file: 'algolia/algolia-config.json'
+      - name: Algolia Docsearch Uploader
+        uses: guzhongren/algolia-docsearch-upload-action@v2.0.0
+        env:
+          FILE_PATH: "./algolia/index.json"
+          APPLICATION_ID: "U78G8QR4DU"
+          ADMIN_API_KEY: "6210ead870813aadae2d72f3681e8bb9"
+          INDEX_NAME: "index.zh-cn"
