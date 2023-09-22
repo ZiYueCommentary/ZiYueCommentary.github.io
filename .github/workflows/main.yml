@@ -11,4 +11,5 @@ jobs:
           FILE_PATH: "../../assets/algolia.json"
           APPLICATION_ID: "U78G8QR4DU"
           ADMIN_API_KEY: "6210ead870813aadae2d72f3681e8bb9"
-          INDEX_NAME: "index.zh-cn"
+          INDEX_NAME: "ziyuesinicization"
+
