@@ -124,7 +124,7 @@ const trends = [
 const url = ["index.html","scpcb-chinese.html","ctot.html","trends.html","scpunity-chinese-polish.html","scpcb-ue-chinese.html","scpcb-chinese-wiki.html","trivia.html","archives.html","members.html","scpcb-rewrite-wikipedia.html","videos/轻收容区教程.html","videos/SCP-006.html","videos/SL抵制外挂.html"]
 
 function getUrlParam(param) {
-	var url = window.location.search.substr(1);
+	var url = window.location.search.substring(1);
 	if (url == '') return;
 	var paramsArr = url.split('&');
 	for (var i = 0; i < paramsArr.length; i++) {
@@ -135,18 +135,19 @@ function getUrlParam(param) {
 	}
 }
 
-function generateTrends(){
+function generateTrends() {
+	const TRENDS_PER_PAGE = 8;
 	if(location.href.indexOf("trends") == -1) return;
 	if(location.href.substring(location.href.indexOf("trends")).indexOf("/") != -1) return;
 	jQuery(function($) {
 		var page = getUrlParam("page");
 		page = (page == undefined) ? 0 : page - 1;
 		var html = "";
-		for (var i = 0; i < 5; i++) {
-			if(((page * 5) + i) >= trends.length) break;
+		for (var i = 0; i < TRENDS_PER_PAGE; i++) {
+			if(((page * TRENDS_PER_PAGE) + i) >= trends.length) break;
 			html += "<div class=\"trendList\">";
-			html += "<a href=\"" + trends[(page * 5) + i].link + "\"><img class='image' src=\"" + trends[(page * 5) + i].poster + "\"><\/a>";
-			html += "<span><a href=\"" + trends[(page * 5) + i].link + "\"><h2>" + trends[(page * 5) + i].title + "<\/h2><\/a>" + trends[(page * 5) + i].date + "<\/span>";
+			html += "<a href=\"" + trends[(page * TRENDS_PER_PAGE) + i].link + "\"><img class='image' src=\"" + trends[(page * TRENDS_PER_PAGE) + i].poster + "\"><\/a>";
+			html += "<span><a href=\"" + trends[(page * TRENDS_PER_PAGE) + i].link + "\"><h2>" + trends[(page * TRENDS_PER_PAGE) + i].title + "<\/h2><\/a>" + trends[(page * TRENDS_PER_PAGE) + i].date + "<\/span>";
 			html += "</div>";
 			html += "<br>";
 		}
@@ -156,10 +157,10 @@ function generateTrends(){
 		} else {
 			html += "<li><a href='?page=" + (page) + "' class='button'>上一页</a></li>";
 		}
-		for (var i = 0; i < Math.ceil(trends.length / 5); i++) {
+		for (var i = 0; i < Math.ceil(trends.length / TRENDS_PER_PAGE); i++) {
 			html += "<li><a href='?page=" + (i+1) + "' class='page " + (page == i ? "active" : "") + "'>" + (i+1) + "</a></li>";
 		}
-		if (page == Math.ceil(trends.length / 5) - 1) {
+		if (page == Math.ceil(trends.length / TRENDS_PER_PAGE) - 1) {
 			html += "<li><span class='button disabled'>下一页</span></li>";
 		} else {
 			html += "<li><a class='button' href='?page=" + (page + 2) + "'>下一页</span></li>";
