@@ -9,8 +9,8 @@ jobs:
       run: sudo pip install coscmd
     - name: Configure coscmd
       env:
-        SECRET_ID: ${{secrets.SecretId}}
-        SECRET_KEY: ${{secrets.SecretKey}}
+        SECRET_ID: ${{ secrets.SECRETID }}
+        SECRET_KEY: ${{ secrets.SECRETKEY }}
         BUCKET: ziyuesinicization-1301852054
         REGION: ap-beijing
       run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
