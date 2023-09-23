@@ -1,17 +1,18 @@
-name: Build
-on: [ pull_request, push ]
-
+name: Upload to CoS
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Algolia Docsearch Uploader
-        uses: guzhongren/algolia-docsearch-upload-action@v2.0.0
-        env:
-          FILE_PATH: "./assets/algolia.json"
-          APPLICATION_ID: "U78G8QR4DU"
-          ADMIN_API_KEY: "6210ead870813aadae2d72f3681e8bb9"
-          INDEX_NAME: "ziyuesinicization"
-
+    - uses: actions/checkout@v1
+    - name: Install coscmd
+      run: sudo pip install coscmd
+    - name: Configure coscmd
+      env:
+        SECRET_ID: ${{secrets.SecretId}}
+        SECRET_KEY: ${{secrets.SecretKey}}
+        BUCKET: ziyuesinicization-1301852054
+        REGION: ap-beijing
+      run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION
+    - name: Upload
+      run: coscmd upload -rs ./ / --ignore "./.git/*"
