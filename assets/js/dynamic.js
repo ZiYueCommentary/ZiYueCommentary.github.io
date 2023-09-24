@@ -190,7 +190,7 @@ function generateSidebar() {
 			"<div class='inner'>" +
 				//"<section id='search' class='alt'>" +
 				//	"<form method='post' action='#'>" +
-				//		"<input type='text' name='query' id='query' placeholder='搜索' />" +
+				//		"<input type='text' name='query' id='query' placeholder='搜索'/>" +
 				//	"</form>" +
 				//"</section>" +
 				"<nav id='menu'>" +
@@ -207,8 +207,9 @@ function generateSidebar() {
 							"<ul>" +
 								"<a href='https://forum.ziyuesinicization.site/'>官方论坛</a></li>" +
 								"<li><a href='https://blog.ziyuesinicization.site/'>博客中心</a></li>" +
-								"<li><a href='https://gitbook.ziyuesinicization.site/'>子悦汉化组 GitBook</a></li>" +
+								"<li><a href='https://gitbook.ziyuesinicization.site/'>GitBook</a></li>" +
 								"<li><a href='https://weblate.ziyuesinicization.site/'>ZiYue Weblate</a></li>" +
+								"<li><a href='https://github.ziyuesinicization.site/'>Github镜像</a></li>" +
 							"</ul>" +
 						"</li>" +
 						"<li><a href='trivia.html'>你知道吗</a></li>" +
@@ -246,7 +247,7 @@ function generateSidebar() {
 					"</ul>" +
 				"</section>" +
 				"<footer id='footer'>" +
-					"<p class='copyright'>&copy; 子悦汉化组，遵循<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.zh\" target=\"_blank\">CC BY-SA 3.0</a>协议。<br>网页设计来自<a href='https://html5up.net' target='_blank'>HTML5 UP</a>，托管于<a href='https://pages.cloudflare.com/' target='_blank'>Cloudflare Page</a>。</p>" +
+					"<p class='copyright'>&copy; 子悦汉化组，遵循<a href=\"https://creativecommons.org/licenses/by-sa/3.0/deed.zh\" target=\"_blank\">CC BY-SA 3.0</a>协议。<br>网页设计来自<a href='https://html5up.net' target='_blank'>HTML5 UP</a>，托管于<a href='https://pages.cloudflare.com/' target='_blank'>Cloudflare Pages</a>。</p>" +
 				"</footer>" +
 			"</div>" +
 		"</div>"

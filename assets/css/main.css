@@ -21,8 +21,8 @@
 }
 
 @font-face {
-	font-family: 普惠体Bold;
-	src: url("../webfonts/普惠体Bold.woff2");
+	font-family: PuHuiTi;
+	src: url("../webfonts/PuHuiTi Bold.woff2");
   font-weight: bold;
 }
 
@@ -341,7 +341,7 @@ ul ul {
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
-  font-family: 普惠体Bold;
+  font-family: PuHuiTi;
   font-weight: normal;
   line-height: 1.5;
   margin: 0 0 1em 0; }
@@ -1199,7 +1199,7 @@ section.special, article.special {
   text-align: center; }
 
 header p {
-  font-family: 普惠体Bold;
+  font-family: PuHuiTi;
   font-size: 100%;
   font-weight: normal;
   letter-spacing: 0.075em;
