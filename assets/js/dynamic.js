@@ -1,6 +1,12 @@
 // Psuedo Database
 const trends = [
     {
+        link:	"trends/第五版.html",
+        poster:	"images/收容失效汉化计划/第五版.png",
+        title:	"收容失效汉化计划 第五版发布",
+        date:	"2023年10月1日"
+    },
+    {
         link:	"trends/官方维基关闭.html",
         poster:	"images/占位符/pic01.jpg",
         title:	"子悦汉化组 官方维基关闭",
@@ -119,7 +125,7 @@ const trends = [
         poster:	"images/中文贴图模组/第二版.jpg",
         title:	"中文贴图模组 第二版更新",
         date:	"2022年2月1日"
-    },
+    }
 ]
 const url = ["index.html","scpcb-chinese.html","ctot.html","trends.html","scpunity-chinese-polish.html","scpcb-ue-chinese.html","scpcb-chinese-wiki.html","trivia.html","archives.html","members.html","scpcb-rewrite-wikipedia.html","videos/轻收容区教程.html","videos/SCP-006.html","videos/SL抵制外挂.html"]
 
