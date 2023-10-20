@@ -8,7 +8,7 @@ const trends = [
     },
     {
         link:	"trends/官方维基关闭.html",
-        poster:	"images/占位符/pic01.jpg",
+        poster:	"images/placeholders/pic01.jpg",
         title:	"子悦汉化组 官方维基关闭",
         date:	"2023年7月13日"
     },
@@ -26,13 +26,13 @@ const trends = [
     },
     {
         link:	"trends/汉化组博客.html",
-        poster:	"images/占位符/pic04.jpg",
+        poster:	"images/placeholders/pic04.jpg",
         title:	"子悦汉化组 博客搭建完毕",
         date:	"2022年11月24日"
     },
     {
         link:	"trends/钓鱼网站.html",
-        poster:	"images/占位符/pic02.jpg",
+        poster:	"images/placeholders/pic02.jpg",
         title:	"子悦汉化组 官网域名瘫痪",
         date:	"2022年11月23日"
     },

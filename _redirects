@@ -12,3 +12,4 @@
 /重制版中文优化.html /scpunity-chinese-polish.html
 /images/存档/* /images/archives/:splat
 /images/占位符/* /images/placeholders/:splat
+/images/汉化组成员/* /images/members/:splat
