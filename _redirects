@@ -10,5 +10,5 @@
 /中文贴图模组.html /ctot.html
 /终极版汉化计划.html /scpcb-ue-chinese.html
 /重制版中文优化.html /scpunity-chinese-polish.html
-/图片/* /images/:splat
- 
+/images/存档/* /images/archives/:splat
+/images/占位符/* /images/placeholders/:splat
