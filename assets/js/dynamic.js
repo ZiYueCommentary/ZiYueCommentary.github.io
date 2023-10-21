@@ -127,7 +127,7 @@ const trends = [
         date:	"2022年2月1日"
     }
 ]
-const url = ["index.html","scpcb-chinese.html","ctot.html","trends.html","scpunity-chinese-polish.html","scpcb-ue-chinese.html","scpcb-chinese-wiki.html","trivia.html","archives.html","members.html","scpcb-rewrite-wikipedia.html","videos/轻收容区教程.html","videos/SCP-006.html","videos/SL抵制外挂.html"]
+const url = ["index.html","scpcb-chinese.html","ctot.html","trends.html","scpunity-chinese-polish.html","scpcb-ue-chinese.html","scpcb-chinese-wiki.html","trivia.html","archives.html","members.html","scpcb-rewrite-wikipedia.html"]
 
 function getUrlParam(param) {
 	var url = window.location.search.substring(1);

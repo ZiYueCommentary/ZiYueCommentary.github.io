@@ -3017,7 +3017,7 @@ div.author span p {
 	margin-top:5px;
 	margin-bottom:10px;
 }
-tfoot td,tfoot th,thead td,thead th {
+.tablesorter tfoot td,.tablesorter tfoot th,.tablesorter thead td,.tablesorter thead th {
 	padding:4px;
 	margin:0 0 18px
 }
