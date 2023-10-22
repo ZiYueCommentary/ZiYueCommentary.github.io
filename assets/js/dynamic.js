@@ -2,7 +2,7 @@
 const trends = [
     {
         link:	"trends/第五版.html",
-        poster:	"images/收容失效汉化计划/第五版.png",
+        poster:	"images/scpcb-chinese/第五版.png",
         title:	"收容失效汉化计划 第五版发布",
         date:	"2023年10月1日"
     },
@@ -14,13 +14,13 @@ const trends = [
     },
     {
         link:	"trends/三角符文.html",
-        poster:	"images/其他/deltarune_cn.png",
+        poster:	"images/uncategorized/deltarune_cn.png",
         title:	"三角符文中文网站 搭建完毕",
         date:	"2023年7月6日"
     },
     {
         link:	"trends/第四版.html",
-        poster:	"images/收容失效汉化计划/第四版.png",
+        poster:	"images/scpcb-chinese/第四版.png",
         title:	"收容失效汉化计划 第四版发布",
         date:	"2023年1月1日"
     },
@@ -38,43 +38,43 @@ const trends = [
     },
 	{
         link:	"trends/中贴第七版.html",
-        poster:	"images/中文贴图模组/第二版.jpg",
+        poster:	"images/ctot/第二版.jpg",
         title:	"中文贴图模组 第七版发布",
         date:	"2022年11月1日"
     },
 	{
         link:	"trends/第三版.html",
-        poster:	"images/收容失效汉化计划/第三版.png",
+        poster:	"images/scpcb-chinese/第三版.png",
         title:	"收容失效汉化计划 第三版发布",
         date:	"2022年9月1日"
     },
 	{
         link:	"trends/第二版.html",
-        poster:	"images/收容失效汉化计划/第二版.png",
+        poster:	"images/scpcb-chinese/第二版.png",
         title:	"收容失效汉化计划 第二版发布",
         date:	"2022年8月1日"
     },
 	{
         link:	"trends/正式发布.html",
-        poster:	"images/收容失效汉化计划/正式发布.jpg",
+        poster:	"images/scpcb-chinese/正式发布.jpg",
         title:	"收容失效汉化计划 正式发布",
         date:	"2022年7月1日"
     },
 	{
         link:	"trends/排错测试.html",
-        poster:	"images/收容失效汉化计划/排错测试.jpg",
+        poster:	"images/scpcb-chinese/排错测试.jpg",
         title:	"收容失效汉化计划 排错测试发布",
         date:	"2022年6月1日"
     },
 	{
         link:	"trends/二期汉化.html",
-        poster:	"images/收容失效汉化计划/二期汉化.jpg",
+        poster:	"images/scpcb-chinese/二期汉化.jpg",
         title:	"收容失效汉化计划 二期汉化发布",
         date:	"2022年5月16日"
     },
 	{
         link:	"trends/二期技术测试.html",
-        poster:	"images/收容失效汉化计划/二期技术测试.jpg",
+        poster:	"images/scpcb-chinese/二期技术测试.jpg",
         title:	"二期技术测试/中贴第四版发布",
         date:	"2022年5月1日"
     },
@@ -86,43 +86,43 @@ const trends = [
     },
 	{
         link:	"trends/中贴第三版.html",
-        poster:	"images/中文贴图模组/第二版.jpg",
+        poster:	"images/ctot/第二版.jpg",
         title:	"中文贴图模组 第三版更新",
         date:	"2022年4月1日"
     },
 	{
         link:	"trends/一期测试.html",
-        poster:	"images/收容失效汉化计划/一期测试.jpg",
+        poster:	"images/scpcb-chinese/一期测试.jpg",
         title:	"收容失效汉化计划 一期测试更新",
         date:	"2022年4月1日"
     },
 	{
         link:	"trends/Discord群关闭.html",
-        poster:	"images/收容失效汉化计划/横幅.png",
+        poster:	"images/scpcb-chinese/banner.png",
         title:	"SCP - 收容失效汉化交流 Discord群关闭",
         date:	"2022年3月17日"
     },
 	{
         link:	"trends/汉化阶段调整.html",
-        poster:	"images/收容失效汉化计划/横幅.png",
+        poster:	"images/scpcb-chinese/banner.png",
         title:	"SCP - 收容失效汉化计划 汉化阶段调整",
         date:	"2022年3月13日"
     },
 	{
         link:	"trends/中文网站.html",
-        poster:	"images/收容失效汉化计划/中文网站.png",
+        poster:	"images/scpcb-chinese/中文网站.png",
         title:	"SCP - 收容失效 中文网站搭建完毕",
         date:	"2022年3月12日"
     },
 	{
         link:	"trends/预发布测试.html",
-        poster:	"images/收容失效汉化计划/预发布测试.jpg",
+        poster:	"images/scpcb-chinese/预发布测试.jpg",
         title:	"收容失效汉化计划 预发布测试更新",
         date:	"2022年2月1日"
     },
 	{
         link:	"trends/中贴第二版.html",
-        poster:	"images/中文贴图模组/第二版.jpg",
+        poster:	"images/ctot/第二版.jpg",
         title:	"中文贴图模组 第二版更新",
         date:	"2022年2月1日"
     }

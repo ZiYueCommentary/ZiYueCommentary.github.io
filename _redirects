@@ -13,3 +13,14 @@
 /images/存档/* /images/archives/:splat
 /images/占位符/* /images/placeholders/:splat
 /images/汉化组成员/* /images/members/:splat
+/images/其他/* /images/uncategorized/:splat
+/images/九尾狐中文/* /images/scpntf-chinese/:splat
+/images/收容失效汉化计划/* /images/scpcb-chinese/:splat
+/images/我的世界模组汉化/* /images/minecraft-mod-sinicization/:splat
+/images/中文贴图模组/* /images/ctot/:splat
+/images/中文维基计划/* /images/scpcb-chinese-wiki/:splat
+/images/中文优化计划/* /images/scpunity-chinese-polish/:splat
+/images/*/主页图片.jpg /images/:splat/poster.jpg
+/images/*/主页图片.png /images/:splat/poster.png
+/images/*/横幅.jpg /images/:splat/banner.jpg
+/images/*/横幅.png /images/:splat/banner.png
