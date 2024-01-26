@@ -185,13 +185,6 @@ function getLink(index) {
 
 function generateSidebar() {
 	document.write(
-		"<script async src='https://www.googletagmanager.com/gtag/js?id=G-J2WV3EXMX7'></script>" +
-		"<script>" +
-		  "window.dataLayer = window.dataLayer || [];" +
-		  "function gtag(){dataLayer.push(arguments);}" +
-		  "gtag('js', new Date());" +
-		  "gtag('config', 'G-J2WV3EXMX7');" +
-		"</script>" +
 		"<div id='sidebar'>" +
 			"<div class='inner'>" +
 				//"<section id='search' class='alt'>" +
@@ -250,7 +243,7 @@ function generateSidebar() {
 						"<h2>联系我们</h2>" +
 					"</header>" +
 					"<ul class='contact'>" +
-						"<li class='icon nopad solid fa-envelope'><a href='mailto:contact@ziyuesinicization.site'>contact@ziyuesinicization.site</a></li>" +
+						"<li class='icon nopad solid fa-envelope'><a href='mailto:ziyuecommentary@gmail.com'>ziyuecommentary@gmail.com</a></li>" +
 						"<li class='icon nopad brands fa-qq'><a href='https://jq.qq.com/?_wv=1027&k=OKHrRKoW' target='_blank'>1006841985</a></li>" +
 						"<li class='icon nopad solid fa-wrench'><a href='https://www.moddb.com/company/ziyue-sinicization-group' target='_blank'>ModDB主页</a></li>" +
 					"</ul>" +
