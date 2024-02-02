@@ -1,5 +1,11 @@
 // Psuedo Database
 const trends = [
+	{
+        link:	"trends/羊猫工作室.html",
+        poster:	"images/uncategorized/deltarune_cn.png",
+        title:	"三角符文中文网站 所有权转移",
+        date:	"2024年2月2日"
+    },
     {
         link:	"trends/第五版.html",
         poster:	"images/scpcb-chinese/第五版.png",
