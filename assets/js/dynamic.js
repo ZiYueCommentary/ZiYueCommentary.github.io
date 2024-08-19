@@ -212,12 +212,12 @@ function generateSidebar() {
 							"<ul>" +
 								"<a href='https://forum.ziyuesinicization.site/'>官方论坛</a></li>" +
 								"<li><a href='https://blog.ziyuesinicization.site/'>博客中心</a></li>" +
-								// "<li><a href='https://files.ziyuesinicization.site/'>文件中心</a></li>" +
+								"<li><a href='https://files.ziyuesinicization.site/'>文件中心</a></li>" +
 								// "<li><a href='https://alist.ziyuesinicization.site/'>公共网盘</a></li>" +
 								"<li><a href='https://gitbook.ziyuesinicization.site/'>GitBook</a></li>" +
 								"<li><a href='https://weblate.ziyuesinicization.site/'>ZiYue Weblate</a></li>" +
 								"<li><a href='https://github.ziyuesinicization.site/'>Github镜像</a></li>" +
-								"<li><a href='https://status.ziyuesinicization.site/'>服务状态</a></li>" +
+								// "<li><a href='https://status.ziyuesinicization.site/'>服务状态</a></li>" +
 							"</ul>" +
 						"</li>" +
 						"<li><a href='trivia.html'>你知道吗</a></li>" +
@@ -262,5 +262,17 @@ function generateSidebar() {
 	);
 }
 
+function trackingUser() {
+	var _paq = window._paq = window._paq || [];
+	_paq.push(['trackPageView']);
+	_paq.push(['enableLinkTracking']);
+	var u="https://analytics.ziyuesinicization.site/";
+	_paq.push(['setTrackerUrl', u+'matomo.php']);
+	_paq.push(['setSiteId', '6']);
+	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+}
+
 generateSidebar();
 generateTrends();
+trackingUser();
