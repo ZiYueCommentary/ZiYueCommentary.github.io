@@ -1,6 +1,12 @@
 // Psuedo Database
 const trends = [
 	{
+        link:	"trends/rules.html",
+        poster:	"images/placeholders/pic05.jpg",
+        title:	"《子悦汉化组社区 文明行为促进条例》颁布",
+        date:	"2024年9月30日"
+    },
+	{
         link:	"trends/羊猫工作室.html",
         poster:	"images/uncategorized/deltarune_cn.png",
         title:	"三角符文中文网站 所有权转移",
