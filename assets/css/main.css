@@ -13,11 +13,7 @@
 */
 
 @import url("https://files.ziyuebot.cn/fonts/fontawesome.css");
-	@font-face {
-	font-family:Containment Breach;
-	src:url("../webfonts/Containment Breach Bold.woff2");
-	font-weight:bold;
-}
+@import url("https://files.ziyuebot.cn/fonts/containment-breach.css");
 @font-face {
 	font-family:PuHuiTi;
 	src:url("../webfonts/PuHuiTi Bold.woff2");
