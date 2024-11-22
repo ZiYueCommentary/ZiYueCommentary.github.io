@@ -12,7 +12,7 @@
   已取消cancelled 该计划因某些原因取消
 */
 
-@import url(fontawesome-all.min.css);
+@import url("https://files.ziyuebot.cn/fonts/fontawesome.css");
 	@font-face {
 	font-family:Containment Breach;
 	src:url("../webfonts/Containment Breach Bold.woff2");
