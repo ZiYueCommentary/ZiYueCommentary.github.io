@@ -1,6 +1,12 @@
 // Psuedo Database
 const trends = [
 	{
+        link:	"trends/blog.html",
+        poster:	"images/placeholders/pic09.jpg",
+        title:	"子悦汉化组 博客中心关闭",
+        date:	"2024年11月24日"
+    },
+	{
         link:	"trends/rules.html",
         poster:	"images/placeholders/pic05.jpg",
         title:	"《子悦汉化组社区 文明行为促进条例》颁布",
@@ -217,7 +223,7 @@ function generateSidebar() {
 							"<span class='opener'>其他网站</span>" +
 							"<ul>" +
 								"<a href='https://forum.ziyuesinicization.site/'>官方论坛</a></li>" +
-								"<li><a href='https://blog.ziyuesinicization.site/'>博客中心</a></li>" +
+								"<li><a href='https://www.ziyuebot.cn/'>自阅开发展</a></li>" +
 								"<li><a href='https://files.ziyuesinicization.site/'>文件中心</a></li>" +
 								// "<li><a href='https://alist.ziyuesinicization.site/'>公共网盘</a></li>" +
 								"<li><a href='https://gitbook.ziyuesinicization.site/'>GitBook</a></li>" +
@@ -257,7 +263,7 @@ function generateSidebar() {
 					"<ul class='contact'>" +
 						"<li class='icon nopad solid fa-envelope'><a href='mailto:ziyuecommentary@gmail.com'>ziyuecommentary@gmail.com</a></li>" +
 						"<li class='icon nopad brands fa-qq'><a href='https://jq.qq.com/?_wv=1027&k=OKHrRKoW' target='_blank'>1006841985</a></li>" +
-						"<li class='icon nopad solid fa-wrench'><a href='https://www.moddb.com/company/ziyue-sinicization-group' target='_blank'>ModDB主页</a></li>" +
+						"<li class='icon nopad solid fa-wrench'><a href='https://www.moddb.com/company/ziyue-sinicization-group' target='_blank'>ModDB 主页</a></li>" +
 					"</ul>" +
 				"</section>" +
 				"<footer id='footer'>" +
