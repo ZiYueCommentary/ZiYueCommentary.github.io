@@ -1906,6 +1906,11 @@ ul.icons {
 ul.icons li {
 	display:inline-block;
 	padding:0 1em 0 0;
+	font-family: "Containment Breach";
+	font-size: 1.2em;
+}
+ul.icons li a {
+	border-bottom: none;
 }
 ul.icons li:last-child {
 	padding-right:0;
@@ -2733,7 +2738,7 @@ body.is-preload #sidebar {
 #header .logo {
 	border-bottom:0;
 	color:inherit;
-	font-family:Containment Breach,serif;
+	font-family:"Containment Breach",serif;
 	font-size:1.125em;
 }
 #header .icons {
