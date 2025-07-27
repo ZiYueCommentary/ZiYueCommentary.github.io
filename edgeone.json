@@ -1,0 +1,33 @@
+{
+    "redirects": [
+      { "source": "/存档列表.html", "destination": "/archives.html", "statusCode": 301 },
+      { "source": "/动态列表.html", "destination": "/trends.html", "statusCode": 301 },
+      { "source": "/汉化组成员.html", "destination": "/members.html", "statusCode": 301 },
+      { "source": "/九尾狐中文.html", "destination": "/scpntf-chinese.html", "statusCode": 301 },
+      { "source": "/你知道吗.html", "destination": "/trivia.html", "statusCode": 301 },
+      { "source": "/收容失效汉化计划.html", "destination": "/scpcb-chinese.html", "statusCode": 301 },
+      { "source": "/收容失效中文维基.html", "destination": "/scpcb-chinese-wiki.html", "statusCode": 301 },
+      { "source": "/维基SCP换血计划.html", "destination": "/scpcb-rewrite-wikipedia.html", "statusCode": 301 },
+      { "source": "/我的世界模组汉化.html", "destination": "/minecraft-mod-sinicization.html", "statusCode": 301 },
+      { "source": "/中文贴图模组.html", "destination": "/ctot.html", "statusCode": 301 },
+      { "source": "/终极版汉化计划.html", "destination": "/scpcb-ue-chinese.html", "statusCode": 301 },
+      { "source": "/重制版中文优化.html", "destination": "/scpunity-chinese-polish.html", "statusCode": 301 },
+  
+      { "source": "/images/存档/*", "destination": "/images/archives/:splat", "statusCode": 301 },
+      { "source": "/images/占位符/*", "destination": "/images/placeholders/:splat", "statusCode": 301 },
+      { "source": "/images/汉化组成员/*", "destination": "/images/members/:splat", "statusCode": 301 },
+      { "source": "/images/其他/*", "destination": "/images/uncategorized/:splat", "statusCode": 301 },
+      { "source": "/images/九尾狐中文/*", "destination": "/images/scpntf-chinese/:splat", "statusCode": 301 },
+      { "source": "/images/收容失效汉化计划/*", "destination": "/images/scpcb-chinese/:splat", "statusCode": 301 },
+      { "source": "/images/我的世界模组汉化/*", "destination": "/images/minecraft-mod-sinicization/:splat", "statusCode": 301 },
+      { "source": "/images/中文贴图模组/*", "destination": "/images/ctot/:splat", "statusCode": 301 },
+      { "source": "/images/中文维基计划/*", "destination": "/images/scpcb-chinese-wiki/:splat", "statusCode": 301 },
+      { "source": "/images/中文优化计划/*", "destination": "/images/scpunity-chinese-polish/:splat", "statusCode": 301 },
+  
+      { "source": "/images/*/主页图片.jpg", "destination": "/images/:splat/poster.jpg", "statusCode": 301 },
+      { "source": "/images/*/主页图片.png", "destination": "/images/:splat/poster.png", "statusCode": 301 },
+      { "source": "/images/*/横幅.jpg", "destination": "/images/:splat/banner.jpg", "statusCode": 301 },
+      { "source": "/images/*/横幅.png", "destination": "/images/:splat/banner.png", "statusCode": 301 }
+    ]
+  }
+  
